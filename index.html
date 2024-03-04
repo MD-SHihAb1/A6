@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 ">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -54,8 +54,8 @@
           </div>
     </header>
       <!-- img header -->
-      <header class="w-[90%] mr-44">
-        <div class="card w-[70%]bg-base-100 shadow-xl bg-slate-800">
+      <header class="w-[90%] ">
+        <div class="card w-[70%] bg-base-100 shadow-xl bg-slate-800 mx-auto">
           
           <div class="card-body">
             <h1 class="card-title text-white text-6xl">Welcome to the</h1>
@@ -65,9 +65,25 @@
               <br>
               wp forum coffee mug!</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <!-- white div -->
+
+
+              <input type="text" placeholder="Search here anything" class="input input-bordered w-full max-w-xs" />
+              <button class="btn btn-primary w-[10%] rounded-full ... ">Search</button>
             </div>
+         <div class="flex">
+          <div class=" w[10%]">
+            <input id="search-field" type="text" placeholder="Search here anything" class="input input-bordered w-full max-w-xs" />
+          </div>
+            <div class="">
+              <button onclick="handleSearch()" class="btn btn-primary w-[auto] rounded-full ...  ">Search</button>
+            </div>
+         </div>
+
+
+
             <img src="images/bgbanner.png" alt="">
+            
           </div>
         </div>
       </header>
@@ -99,6 +115,43 @@
           </div>
         </div>
       </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <!-- join form -->
+    <main>
+      <header class="w-[90%] ">
+        <div class="card w-[70%] bg-base-100 shadow-xl bg-slate-800 mx-auto">
+          
+          <div class="card-body">
+            <h1 class="card-title text-white text-6xl">Welcome to the</h1>
+            <h1 class="text-white text-6xl">ReTro Forum</h1>
+            <br>
+            <p class="text-white text-2xl">Share your favorite opinion and win and
+              <br>
+              wp forum coffee mug!</p>
+            <div class="card-actions justify-end">
+              <!-- white div -->
+
+
+              
+         <div class="flex">
+          <div class=" w[10%]">
+            
+          </div>
+            <div class="">
+              
+            </div>
+         </div>
+
+
+
+            <img src="images/joinforum.png" alt="">
+            
+          </div>
+        </div>
+      </header>
     </main>
     <script src="js/post.js"></script>
 </body>
