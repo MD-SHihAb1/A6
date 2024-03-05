@@ -15,7 +15,26 @@ const displayPost = posts =>{
         postTitle.innerHTML = `
         <div class="avatar">
                 <div class="w-24 rounded-full">
-                <figure><img src="${post.image}" alt="Shoes" /></figure>
+                <figure>
+                
+                <div class="avatar online 
+                
+                const = online
+                
+                if ${posts.isActive} = true{
+                    console.log(online)
+                }
+                else ${posts.isActive} = false{
+                    console.log(offline)
+                }
+
+
+                ">
+                <div class="w-24 rounded-full">
+                <img src="${post.image}" alt="Shoes" />
+                </div>
+                                
+                </figure>
                 </div>
                 </div>
         <div class="card-body">
