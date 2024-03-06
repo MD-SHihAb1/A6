@@ -21,10 +21,10 @@ const displayPost = posts =>{
                 
                 const = online
                 
-                if ${posts.isActive} = true{
+                if ${posts.isActive = 'true'} = true{
                     console.log(online)
                 }
-                else ${posts.isActive} = false{
+                else ${posts.isActive = 'false'} = false{
                     console.log(offline)
                 }
 
